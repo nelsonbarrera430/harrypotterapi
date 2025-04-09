@@ -4,80 +4,84 @@ Example of Rest Api in Flutter
 
 ## Resources
 
-- [Api Rest](https://jsonplaceholder.typicode.com/)
+- [Api Rest](https://hp-api.onrender.com/)
 
 ## Response
 
 ```
 [
   {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
+    "name": "Harry Potter",
+    "alternate_names": ["The Boy Who Lived"],
+    "species": "human",
+    "gender": "male",
+    "house": "Gryffindor",
+    "dateOfBirth": "31-07-1980",
+    "yearOfBirth": 1980,
+    "wizard": true,
+    "ancestry": "half-blood",
+    "eyeColour": "green",
+    "hairColour": "black",
+    "wand": {
+      "wood": "holly",
+      "core": "phoenix feather",
+      "length": 11
     },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
+    "patronus": "stag",
+    "hogwartsStudent": true,
+    "hogwartsStaff": false,
+    "actor": "Daniel Radcliffe",
+    "alive": true,
+    "image": "https://ik.imagekit.io/hpapi/harry.jpg"
   },
   {
-    "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
-      }
+    "name": "Hermione Granger",
+    "alternate_names": [],
+    "species": "human",
+    "gender": "female",
+    "house": "Gryffindor",
+    "dateOfBirth": "19-09-1979",
+    "yearOfBirth": 1979,
+    "wizard": true,
+    "ancestry": "muggleborn",
+    "eyeColour": "brown",
+    "hairColour": "brown",
+    "wand": {
+      "wood": "vine",
+      "core": "dragon heartstring",
+      "length": null
     },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
+    "patronus": "otter",
+    "hogwartsStudent": true,
+    "hogwartsStaff": false,
+    "actor": "Emma Watson",
+    "alive": true,
+    "image": "https://ik.imagekit.io/hpapi/hermione.jpeg"
   },
   {
-    "id": 3,
-    "name": "Clementine Bauch",
-    "username": "Samantha",
-    "email": "Nathan@yesenia.net",
-    "address": {
-      "street": "Douglas Extension",
-      "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
-      "geo": {
-        "lat": "-68.6102",
-        "lng": "-47.0653"
-      }
+    "name": "Ron Weasley",
+    "alternate_names": [],
+    "species": "human",
+    "gender": "male",
+    "house": "Gryffindor",
+    "dateOfBirth": "01-03-1980",
+    "yearOfBirth": 1980,
+    "wizard": true,
+    "ancestry": "pure-blood",
+    "eyeColour": "blue",
+    "hairColour": "red",
+    "wand": {
+      "wood": "willow",
+      "core": "unicorn tail-hair",
+      "length": 14
     },
-    "phone": "1-463-123-4447",
-    "website": "ramiro.info",
-    "company": {
-      "name": "Romaguera-Jacobson",
-      "catchPhrase": "Face to face bifurcated interface",
-      "bs": "e-enable strategic applications"
-    }
+    "patronus": "Jack Russell terrier",
+    "hogwartsStudent": true,
+    "hogwartsStaff": false,
+    "actor": "Rupert Grint",
+    "alive": true,
+    "image": "https://ik.imagekit.io/hpapi/ron.jpg"
   }
 ]
+
 ```
